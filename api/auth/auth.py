@@ -3,7 +3,6 @@ import httpx
 from fastapi import APIRouter, Request, HTTPException
 from fastapi.responses import RedirectResponse
 from google.oauth2 import id_token
-from google.auth.transport import requests
 from dotenv import load_dotenv
 
 load_dotenv()
